@@ -1,2 +1,6 @@
 .DS_Store
 __pycache__/
+
+# Per author request I am excluding inputs and outputs in the public repo.
+input*.txt
+output*.txt
