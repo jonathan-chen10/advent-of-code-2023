@@ -10,3 +10,7 @@ def log_func(fxn, *input, fxn_name=None, note=None):
 
 def log(*x):
   print ('DEBUG:', *x)
+
+def log_grid(grid: list[str]):
+  for row in grid:
+    log(row)
